@@ -894,7 +894,9 @@ hi def link markdownLinkTitleSingleQuoted   Bold
 hi def link markdownLinkTitleDoubleQuoted   Bold
 hi def link markdownLinkUrlContainer        Delimiter
 hi def link markdownLinkTextContainer       Delimiter
-hi def link markdownLinkReference           NonText
+" 2017-03-16: [lb] seeing XML tags and content being white on white!
+"hi def link markdownLinkReference           NonText
+hi def link markdownLinkReference           Special
 
 hi def link markdownCodeDelimiter           Delimiter
 hi def link markdownInlineCode              String
@@ -904,7 +906,9 @@ hi def link markdownCodeBlock               String
 hi def link markdownTableDelimiter          Delimiter
 hi def link markdownTableHeader             Bold
 
-hi def link markdownStrike                  NonText
+" 2017-03-16: [lb] seeing XML tags and content being white on white!
+"hi def link markdownStrike                  NonText
+hi def link markdownStrike                  Special
 hi def link markdownStrikeDelimiter         Delimiter
 hi def link markdownBlockquote              Comment
 hi def link markdownBlockquoteDelimiter     Delimiter
@@ -925,9 +929,13 @@ hi def link markdownH6                      Title
 hi def link markdownEmoticonKeyword         Statement
 hi def link markdownRule                    Identifier
 
-hi def link markdownXmlComment              NonText
-hi def link markdownXmlElement              NonText
-hi def link markdownXmlEmptyElement         NonText
+" 2017-03-16: [lb] seeing XML tags and content being white on white!
+"hi def link markdownXmlComment              NonText
+"hi def link markdownXmlElement              NonText
+"hi def link markdownXmlEmptyElement         NonText
+hi def link markdownXmlComment              Special
+hi def link markdownXmlElement              Special
+hi def link markdownXmlEmptyElement         Special
 hi def link markdownXmlEntities             Special
 
 " }}}
