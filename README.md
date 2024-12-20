@@ -1,3 +1,25 @@
+# Fork of *Markdown for Vim*
+
+***This fork is deprecated***
+
+The author has since migrated to another Markdown plugin:
+
+https://github.com/preservim/vim-markdown
+
+## Fix XML highlighting
+
+[gabrielelana]: https://github.com/gabrielelana/vim-markdown
+
+This is a fork of [`gabrielelana/vim-markdown`][gabrielelana]
+with a single change:
+
+- Adjust highlighting, because XML `<tt>stuff</tt>` appears white on white.
+
+  (Or at least it does in the author's Vim environment.)
+
+
+*The original README follows:*
+
 # Markdown for Vim
 A complete environment to create Markdown files with a syntax highlight that doesn't suck!
 
